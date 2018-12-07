@@ -1,0 +1,52 @@
+/*This style is for the signup page*/
+/*section*/
+section{
+	padding-left: 10px;
+}
+section h2:first-child{
+	text-transform: capitalize;
+}
+/*Styling for the fieldset and legend*/
+legend{
+	text-transform: capitalize;
+	color: blue;
+	padding: 5px;
+}
+fieldset{
+	padding: 10px;
+	margin-bottom: 20px;
+}
+/*styling for the form elements*/
+/*style all but the last p elements of the fieldset to a padding of 10px*/
+fieldset > p{
+	padding-bottom: 20px;
+}
+fieldset > p:last-child{
+	padding-bottom: 5px;
+}
+
+label{
+	display: inline-block;
+	width: 130px;
+	text-align: right;
+	text-transform: capitalize;
+}
+/*style the image eye so it is a pointer*/
+img.show-hide{
+	cursor: pointer;
+}
+/*style the phone number so it does not have width*/
+#phone-number{
+	display: inline;
+}
+/*style the buttons*/
+form > p{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+button{
+	padding: 3px 5px;
+	display: inline-block;
+	width: 60px;
+}

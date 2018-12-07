@@ -1,0 +1,15 @@
+/*Style the section*/
+/*section*/
+section{
+	text-align: center;
+}
+section h1:first-child{
+	margin-bottom: 20px;
+}
+section h1:last-child{
+	margin-top: 20px;
+}
+section p img{
+	width: 500px;
+	height: 300px;
+}

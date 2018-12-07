@@ -1,0 +1,59 @@
+
+/*section's section*/
+section{
+	margin-bottom: 50px;
+	text-align: center;
+}
+section div{
+	margin-bottom: 10px;
+}
+section div:first-child p{
+	position: relative;
+	color: red;
+	display: inline-block;
+	width: 200px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	text-align: left;
+}
+section div:first-child span{
+	color: black;
+	font-weight: bold;
+	font: 1.5em;
+	position: absolute;
+	right: 3px;
+	cursor: pointer;
+}
+section article{
+	display: inline-block;
+	width: 300px;
+	text-align: center;
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+article img{
+	width: 280px;
+	height: 280px;
+	margin-bottom: 20px;
+}
+form{
+	text-align: left;
+}
+form span{
+	display: inline-block;
+	color: red;
+	text-align: center;
+	padding-bottom: 5px;
+	margin: auto;
+}
+form p{
+	margin-bottom: 20px;
+}
+form button{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}

@@ -1,0 +1,135 @@
+/*This is a general style for the general.php file*/
+
+/*where to place the username*/
+#user-name{
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	color: blue;
+}
+
+/*Style the section so that the contents will be at the center*/
+section{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #ddd;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+div.container{
+	margin-bottom: 50px;
+}
+section div.message{
+	border: 1px solid green;
+	border-radius: 0px 5px 5px 5px;
+	box-shadow: 1px -1px black;
+	width: 600px;
+	position: relative;
+	left: 10px;
+	min-height: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 3px;
+}
+/*style the avatar by the left of the username*/
+.avatar-name, .rule-below-avatar, .message-post{
+	margin: 5px;
+}
+.avatar-name img{
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+/*style the username*/
+.username{
+	vertical-align: bottom;
+	margin-right: 20px;
+}
+.message-post{
+	background-color: #eee;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+}
+/*style the time*/
+.time{
+	vertical-align: bottom;
+}
+/*style the hidden box which is the reply box and the reply messages*/
+.reply-box{
+	display: none;
+}
+.reply-box textarea{
+	max-width: 400px;
+	max-height: 100px;
+}
+/*style the div of the reply link and the reply div*/
+.replylink-likes, .reply{
+	display: inline-block;
+	padding-left: 5px;
+}
+.comment-icon-div > img{
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	vertical-align: top;
+}
+/*style the contents of the reply link and others*/
+.like-icon{
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	vertical-align: top;
+}
+.like-icon-div{
+	display: inline-block;
+	padding-left: 8px;
+	margin-right: 20px;
+	vertical-align: top;
+}
+.comment-icon-div{
+	display: inline-block;
+	padding-left: 8px;
+	margin-right: 20px;
+	vertical-align: top;
+}
+.like-icon-div span{
+	vertical-align: top;
+}
+/*style the reply*/
+section div.reply{
+	border: 1px solid red;
+	border-radius: 5px;
+	box-shadow: 1px -1px black;
+	width: 400px;
+	position: relative;
+	right: -210px;
+	margin-bottom: 1px;
+	min-height: 20px;
+	background-color: white;
+}
+/*style the side-message that sticks out of the message div*/
+div.message-side{
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	border-left: 1px solid green;
+	border-bottom: 1px solid green;
+	position: relative;
+	left: -5px;
+	top: 1px;
+	transform: rotate(45deg);
+}
+button{
+	padding: 3px 5px 3px 5px;
+	width: 60px;
+	vertical-align: bottom;
+	margin-left: 20px;
+}
+textarea{
+	max-height: 150px;
+	max-width: 500px;
+}

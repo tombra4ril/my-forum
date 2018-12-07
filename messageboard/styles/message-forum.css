@@ -1,0 +1,22 @@
+/*This file is used to style the message board app*/
+
+/*Style for the whole document*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;;
+}
+
+/*Style the body so that the main-wrapper div will be in the center*/
+body{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#main-wrapper{
+	padding: 10px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
